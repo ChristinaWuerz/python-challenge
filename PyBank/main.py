@@ -1,8 +1,9 @@
 import os
 import csv
 
-budget_data = os.path.join("budget_data.csv")
+"""budget_data = os.path.join("budget_data.csv")"""
 
+budget_data = os.path.join ("C:\\Users\\Christina\\Documents\\GitHub\\python-challenge\\PyBank\\budget_data.csv")
 
 """
 with open(budget_data, "r") as csv_file:
@@ -15,7 +16,7 @@ with open(budget_data, "r") as csv_file:
     print(str(totalMonths))
 print("End of program")
 """
-with open("budget_data", "r") as csvfile:
+with open(budget_data, "r") as csvfile:
     reader = csv.DictReader(csvfile)
     data = dict()
     flag = False
